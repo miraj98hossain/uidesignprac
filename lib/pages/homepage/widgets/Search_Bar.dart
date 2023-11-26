@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SearchBar extends StatelessWidget {
-  const SearchBar({super.key});
+class Searchbar extends StatelessWidget {
+  const Searchbar({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class SearchBar extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 20),
       padding: const EdgeInsets.symmetric(horizontal: 15),
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 215, 51, 51),
+        color: Colors.white,
         borderRadius: BorderRadius.circular(30),
       ),
       child: Row(
